@@ -1,0 +1,18 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		
+	  string val;
+      int res;
+   
+      Console.WriteLine("Entrer le nombre: ");
+      val = Console.ReadLine();
+      res = Convert.ToInt32(val);
+      
+      
+		
+	}
+}
