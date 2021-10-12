@@ -6,13 +6,15 @@ public class Program
 	{
 		
 	  string val;
-      int res;
+      	  int res;
+   	  do{
+		  Console.WriteLine("Entre le nombre: ");
+		  val = Console.ReadLine();
+		  res = Convert.ToInt32(val);
+	  }while(res<0); 
+     
+    	  
+			         
    
-      Console.WriteLine("Entrer le nombre: ");
-      val = Console.ReadLine();
-      res = Convert.ToInt32(val);
-      
-      
-		
 	}
 }
